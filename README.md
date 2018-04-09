@@ -43,23 +43,23 @@ Roadmap:
         AbilityText: String  
       }
       
-    The expectation is that we will be able to query on class, card type, set, mana cost, attack, health, rarity, creatureType, and keywords
+The expectation is that we will be able to query on class, card type, set, mana cost, attack, health, rarity, creatureType, and keywords
    
-    While this api server is being build a corrosponding front end will be built. Rather than most tools on the market this front end is 
-    not prodomently concerned with the reading of card text and seeing of card. Instead this front end is designed to perform data analysis.
-    As a result it will feature the ability for people to pipe data into graphing functions and look at how the data has changed over releases,
-    display and visualize trends, and then present this data to others, potentially by URL. 
+While this api server is being build a corrosponding front end will be built. Rather than most tools on the market this front end is 
+not prodomently concerned with the reading of card text and seeing of card. Instead this front end is designed to perform data analysis.
+As a result it will feature the ability for people to pipe data into graphing functions and look at how the data has changed over releases,
+display and visualize trends, and then present this data to others, potentially by URL. 
    
-    Known dependencies:
-      ESLint AirBnB Config. 
-      React (front end)
-      Node.js (back end)
-      Prefered back end database language
-      GraphQL or REST API endpoint
-        If graphQL then Apollo
-      Prettier HIGHLY RECOMENDED
+Known dependencies:
+ - ESLint AirBnB Config. 
+ - React (front end)
+ - Node.js (back end)
+ - Prefered back end database language
+ - GraphQL or REST API endpoint
+   -If graphQL then Apollo
+ - Prettier HIGHLY RECOMENDED
       
-    Deployment:
-      We will deploy to a digital ocean instance and likely use nginx to point the URL at the server port.
+Deployment:
+ - We will deploy to a digital ocean instance and likely use nginx to point the URL at the server port.
     
     
